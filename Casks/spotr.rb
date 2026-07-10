@@ -4,22 +4,22 @@ cask "spotr" do
 
   on_macos do
     on_intel do
-      sha256 "ae1e903ac5b75c520f6edab37fa220c7fbf13c45eb0608b7dcb41d831a9d79e3"
+      sha256 "bd46eea3c6e333a69a9c5dcbb88e8c2a34d3a8c2961f5a8dfd6a3ffe517dc9c2"
       url "https://github.com/Yokanater/spotr/releases/download/v#{version}/spotr_Darwin_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "300658c63da0e458e3b867aecb40f89ca77958c5064ebbc677f155a3bbb38cab"
+      sha256 "da589aab6d760dbd7acf8701794a7743636987cd9bd4f01db5c87fc71c215fbb"
       url "https://github.com/Yokanater/spotr/releases/download/v#{version}/spotr_Darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "c964b19ac3577ca6720e50035e1705491f44c4ca852b22a46289bfe02aeedd57"
+      sha256 "6a02ae01ab5ab76d95d3f6329f05ac85cc0653b99af4567dc5d0168f382ad88f"
       url "https://github.com/Yokanater/spotr/releases/download/v#{version}/spotr_Linux_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "ef06305eb56f8b3b72e975844fda1499ead0005aabf503ca28c56d882b63f994"
+      sha256 "7277b38e644dcafb7ec444d6aa6dac577e13115dc3806512c2eef4be16198c27"
       url "https://github.com/Yokanater/spotr/releases/download/v#{version}/spotr_Linux_arm64.tar.gz"
     end
   end
